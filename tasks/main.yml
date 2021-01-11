@@ -6,7 +6,11 @@
   loop:
     - ~/local
     - ~/local/bin
-    - ~/local/lib
+    - ~/local/etc
     - ~/local/includes
-    - ~/local/share/
+    - ~/local/lib
+    - ~/local/man
+    - ~/local/sbin
+    - ~/local/share
+    - ~/local/src
 
