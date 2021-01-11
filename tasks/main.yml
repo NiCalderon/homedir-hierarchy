@@ -1,0 +1,12 @@
+---
+- name: Create home directory file structure
+  file:
+    path: "{{ item }}"
+    state: directory
+  loop:
+    - ~/local
+    - ~/local/bin
+    - ~/local/lib
+    - ~/local/includes
+    - ~/local/share/
+
